@@ -14,10 +14,6 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
-    - name: cpu model
-      run: |
-         mkdir theOutput
-         cat /proc/cpuinfo | grep "model name" | uniq  > theOutput/cpu.txt
     - uses: actions/checkout@v2
     - name: Fetch boost
       run: python3 build/fbcode_builder/getdeps.py fetch --no-tests boost
@@ -85,16 +81,12 @@ jobs:
       run: python3 build/fbcode_builder/getdeps.py build --no-tests libsodium
     - name: Build folly
       run: python3 build/fbcode_builder/getdeps.py build --src-dir=. folly  --project-install-prefix folly:/usr/local
-    - name: Copy artifacts
-      run: python3 build/fbcode_builder/getdeps.py fixup-dyn-deps --strip --src-dir=. folly _artifacts/linux  --project-install-prefix folly:/usr/local --final-install-prefix /usr/local
-    - uses: actions/upload-artifact@v2
-      with:
-        name: folly
-        path: _artifacts
+    - name: cpu model
+      run: |
+        mkdir theOutput
+        cat /proc/cpuinfo | grep "model name" | uniq  > theOutput/cpu.txt
     - name: upload cpu model
       uses: actions/upload-artifact@v3
       with:
         name: cpu-artifact
         path: theOutput
-    - name: Test folly
-      run: python3 build/fbcode_builder/getdeps.py test --src-dir=. folly  --project-install-prefix folly:/usr/local
