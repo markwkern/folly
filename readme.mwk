@@ -8,4 +8,5 @@ This fork/clone is strictly for measuring action runs.
 7. Intel(R) Xeon(R) Platinum 8171M CPU @ 2.60GHz - 47m 34s
 8. Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz - 42m 7s
 9. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 17m 9s - 4 CPUS, 4 hyperthreads
-touch
+9. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 23m 47s - 4 CPUS, no hyperthreads
+
