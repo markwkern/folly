@@ -9,5 +9,6 @@ This fork/clone is strictly for measuring action runs.
 8. Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz - 42m 7s
 9. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 17m 9s - 4 CPUS, 4 hyperthreads
 10. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 23m 47s - 4 CPUS, no hyperthreads
-11. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 40m 25 - 2 CPUS, no hyperthreads
-12. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - record here - 2 CPUS, with profiling
+11. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 40m 25s - 2 CPUS via --num-jobs, no hyperthreads
+12. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 44m 19s - 2 CPUS via --num-jobs, with profiling
+13. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - TBC     - 2 CPUS only, others turned off
