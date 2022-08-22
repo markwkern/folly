@@ -13,3 +13,4 @@ This fork/clone is strictly for measuring action runs.
 12. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 44m 19s - 2 CPUS via --num-jobs, with profiling
 13. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - TBC     - 2 CPUS only, others turned off
 Additional run for brown-bag lunch
+14. F4 instance on Azure, take 1
