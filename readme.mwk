@@ -14,4 +14,5 @@ This fork/clone is strictly for measuring action runs.
 13. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - TBC     - 2 CPUS only, others turned off
 Additional run for brown-bag lunch
 14. F4 instance on Azure, install dependencies
-15. F4 instance on Azure, benchmark #1
+15. F4 instance on Azure, benchmark #1 - forgot to clean /tmp
+15. F4 instance on Azure, benchmark #1 - Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz - 4 vCPUs
