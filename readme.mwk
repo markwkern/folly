@@ -11,8 +11,4 @@ This fork/clone is strictly for measuring action runs.
 10. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 23m 47s - 4 CPUS, no hyperthreads
 11. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 40m 25s - 2 CPUS via --num-jobs, no hyperthreads
 12. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 44m 19s - 2 CPUS via --num-jobs, with profiling
-13. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - TBC     - 2 CPUS only, others turned off
-Additional run for brown-bag lunch
-14. F4 instance on Azure, install dependencies
-15. F4 instance on Azure, benchmark #1 - forgot to clean /tmp
 15. F4 instance on Azure, benchmark #1 - Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz - 4 vCPUs
