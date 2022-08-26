@@ -18,5 +18,5 @@ This fork/clone is strictly for measuring action runs.
 Note F4s_v2 used standard SSD storage, need to re-run with premimum SSD
 Also F4s_v2 is 2vCPUs/core, whereas Dxs_v2 is 1 vCPU/core. So only adds hyperthreading and
 minimum SkyLake baseline.
-Maybe try D3s_v2, Standard_D4_v4 (Cascade Lake) check price
+Try D3s_v2, Standard_D4_v4 (Cascade Lake) check price
 
