@@ -11,4 +11,12 @@ This fork/clone is strictly for measuring action runs.
 10. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 23m 47s - 4 CPUS, no hyperthreads
 11. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 40m 25s - 2 CPUS via --num-jobs, no hyperthreads
 12. Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz - 44m 19s - 2 CPUS via --num-jobs, with profiling
-15. F4 instance on Azure, benchmark #1 - Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz - 4 vCPUs
+15. F4s_v2 , benchmark #1 - 8272CL CPU @ 2.60GHz - 4 vCPUs - 36m 25s
+16. D3s_v2, E5-2673 v4 @ 2.30GHz, 4 vCPUs -
+
+
+Note F4s_v2 used standard SSD storage, need to re-run with premimum SSD
+Also F4s_v2 is 2vCPUs/core, whereas Dxs_v2 is 1 vCPU/core. So only adds hyperthreading and
+minimum SkyLake baseline.
+Maybe try D3s_v2, Standard_D4_v4 (Cascade Lake) check price
+
